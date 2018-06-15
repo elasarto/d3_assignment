@@ -1,0 +1,63 @@
+
+
+.tooltip {
+  position: absolute;
+  width: 135px;
+  height: 60px;
+  padding: 2px;
+  padding-top: 8px;
+  font: 12px sans-serif;
+  color: #000;
+  text-align: center;
+  background: #c3eee0;
+  border: 0;
+  border-radius: 10px;
+}
+
+.axis-text {
+  font-family: 'Calibri', sans-serif;
+  font-weight: bold;
+  fill: grey;
+  text-anchor: middle;
+}
+
+.state-text {
+  font-family: 'Calibri',sans-serif;
+  /* font-weight: bold; */
+  fill: #04202b;
+  text-anchor: middle;
+}
+/* rect {
+  fill: rgb(184, 228, 236);
+} */
+
+circle {
+  fill: coral;
+  stroke: red;
+  stroke-width: 0;
+}
+
+circle:hover {
+  stroke-width: 2px;
+}
+.active {
+  font-family: 'Calibri',sans-serif;
+  font-weight: bold;
+  fill: #000;
+  fill: grey;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive {
+  font-family: 'Calibri', 'Trebuchet MS',sans-serif;
+  font-weight: lighter;
+  fill: darkgrey;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive:hover {
+  fill: #e78f54;
+  cursor: pointer;
+}
